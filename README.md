@@ -1,14 +1,11 @@
-# Welcome to your CDK TypeScript project
+# Example CDK Tests Project
 
-This is a blank project for CDK development with TypeScript.
+This is an example project for demonstrating CDK unit tests.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+See the [example-cdk-tests.test.ts](./test/example-cdk-tests.test.ts) file for example tests.
 
-## Useful commands
+Run the jest unit tests with:
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+```sh
+npm run test
+```
